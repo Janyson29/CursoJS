@@ -1,3 +1,5 @@
+//String, Number, Undefined, Null, Boolean, 'Symbol' -> não visto nessa aula
+
 const nome1 = 'Janyson'; //String
 const nome2 = "Janyson"; //String
 const nome3 = `Janyson`; //String
