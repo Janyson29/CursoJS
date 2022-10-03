@@ -50,7 +50,7 @@ console.log(--contador); // -1*/
 // Incremento --> ++
 // Decremendo --> --
 
-let contador = 0;
+/*let contador = 0;
 
 contador = contador + 2;
 console.log(contador);
@@ -69,7 +69,13 @@ console.log(contador);
 contador **= 2; 
 console.log(contador);
 contador %= 2; 
-console.log(contador);
+console.log(contador);*/
 
 // Operadores de atribuição 
 // **= 
+
+// Convertendo valores/ parseInt (inteiros) parseFloat (com casas decimais) Number (vai converter mesmo se for decimal ou não)
+const num1 = 10;
+const num2 = parseFloat('2.9');
+console.log(num1 + num2)
+console.log(typeof num2)
