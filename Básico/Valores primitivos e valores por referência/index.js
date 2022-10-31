@@ -15,9 +15,26 @@ console.log(a, b);
 a = 'Outra coisa';
 console.log(a, b);*/
 
-let a = [1, 2, 3];
+/*let a = [1, 2, 3];
 let b = a; // Referência
+let c = [...a]; // Cópia
 console.log(a, b);
 
 a.push(4);
 console.log(a, b);
+
+b.pop();
+console.log(a, b);
+
+console.log(a, b, c);*/
+
+/*const a = {
+    nome: 'Luiz',
+    sobrenome: 'otávio',
+}
+
+//const b = a; // Referência
+const b = {...a}; // Cópia
+
+a.nome = 'João';
+console.log(a, b);*/
