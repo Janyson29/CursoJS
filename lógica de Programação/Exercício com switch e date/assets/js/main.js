@@ -187,7 +187,7 @@
 // function zeroAEsquerda (num) {
 //     return num >= 10 ? num : `0${num}`;
 // }
-    
+
 // function criaData (data) {
 //     const diaSemana = data.getDay();
 //     const numeroMes = data.getMonth();
@@ -215,56 +215,56 @@
 
 // const h1 = document.querySelector('.container h1');
 // const data = new Date();
-// h1.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'short' });
+
+// function getDaiSemanaTexto(diaSemana) {
+//     const diasSemana = [
+    //         'Domingo',
+//         'Segunda-Feira',
+//         'Terça-Feira',
+//         'Quarta-Feira',
+//         'Quinta-Feira',
+//         'Sexta-Feira',
+//         'Sábado'
+//     ];
+//     return diasSemana[diaSemana];
+// }
+
+// function getNomeMes(numeroMes) {
+    //     const meses = [
+        //         'Janeiro',
+        //         'Fevereiro',
+        //         'Março',
+        //         'Abril',
+        //         'Maio',
+        //         'Junho',
+        //         'Julho',
+//         'Agosto',
+//         'Setembro',
+//         'Outubro',
+//         'Novembro',
+//         'Dezembro'
+//     ];
+//     return meses[numeroMes];
+// }
+
+// function zeroAEsquerda(num) {
+//     return num >= 10 ? num : `0${num}`;
+// }
+
+// function criaData(data) {
+//     const diaSemana = data.getDay();
+//     const numeroMes = data.getMonth();
+
+//     const nomeDia = getDaiSemanaTexto(diaSemana);
+//     const nomeMes = getNomeMes(numeroMes);
+
+//     return (`${nomeDia}, ${data.getDate()} de ${nomeMes} de ${data.getFullYear()} ${zeroAEsquerda(data.getHours())}:${zeroAEsquerda(data.getMinutes())}`);
+// }
+
+// h1.innerHTML = criaData(data);
 
 // Quarta Forma feita pelo professor
 
 const h1 = document.querySelector('.container h1');
 const data = new Date();
-
-function getDaiSemanaTexto(diaSemana) {
-    const diasSemana = [
-        'Domingo',
-        'Segunda-Feira',
-        'Terça-Feira',
-        'Quarta-Feira',
-        'Quinta-Feira',
-        'Sexta-Feira',
-        'Sábado'
-    ];
-    return diasSemana[diaSemana];
-}
-
-function getNomeMes(numeroMes) {
-    const meses = [
-        'Janeiro',
-        'Fevereiro',
-        'Março',
-        'Abril',
-        'Maio',
-        'Junho',
-        'Julho',
-        'Agosto',
-        'Setembro',
-        'Outubro',
-        'Novembro',
-        'Dezembro'
-    ];
-    return meses[numeroMes];
-}
-
-function zeroAEsquerda(num) {
-    return num >= 10 ? num : `0${num}`;
-}
-
-function criaData(data) {
-    const diaSemana = data.getDay();
-    const numeroMes = data.getMonth();
-
-    const nomeDia = getDaiSemanaTexto(diaSemana);
-    const nomeMes = getNomeMes(numeroMes);
-
-    return (`${nomeDia}, ${data.getDate()} de ${nomeMes} de ${data.getFullYear()} ${zeroAEsquerda(data.getHours())}:${zeroAEsquerda(data.getMinutes())}`);
-}
-
-h1.innerHTML = criaData(data);
+h1.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'short' });
