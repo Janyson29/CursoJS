@@ -6,9 +6,9 @@ function mostraHora() {
     });
 }
 
-// function funcaoDoIntervalo() {
-//     console.log(mostraHora());
-// }
+function funcaoDoIntervalo() {
+    console.log(mostraHora());
+}
 
 // setInterval(funcaoDoIntervalo, 1000);
 
@@ -16,14 +16,14 @@ function mostraHora() {
 //     console.log(mostraHora());
 // }, 1000);
 
-const timer = setInterval(function() {
-    console.log(mostraHora());
-}, 1000);
+// const timer = setInterval(function() {
+//     console.log(mostraHora());
+// }, 1000);
 
-setTimeout(function() {
-    clearInterval(timer);
-}, 3000)
+// setTimeout(function() {
+//     clearInterval(timer);
+// }, 3000)
 
-setTimeout(function() {
-    console.log('Olá mundo');
-}, 5000)
+// setTimeout(function() {
+//     console.log('Olá mundo');
+// }, 5000)
