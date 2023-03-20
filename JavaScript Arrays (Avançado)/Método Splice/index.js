@@ -2,7 +2,7 @@
 //                0       1         2          3         4 
 const nomes = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Júlia'];
 
-// nomes.splice(indice, delete, eleme1, eleme2, eleme3);
+// nomes.splice(indice(atual, que quero mexer), delete(a quantidade que quero deletar), eleme1, eleme2, eleme3);
 
 // pop
 // const removidos = nomes.splice(3, 1);
