@@ -56,7 +56,6 @@ const pessoas = [
 const pessoasComNomeGrande = pessoas.filter(valor => valor.nome.length >= 5);
 //  console.log(pessoasComNomeGrande);
 
-
 const pessoasComMaisDeCiquenta = pessoas.filter(valor => valor.idade > 50);
 // console.log(pessoasComMaisDeCiquenta);
 
