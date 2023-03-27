@@ -64,7 +64,18 @@ function Pessoa(nome, sobrenome) {
     this.nome = nome;
     this.sobrenome = sobrenome;
     this.nomeCompleto = `${nome} ${sobrenome}`;
+
+    // return this // {nome: 'Luis'}
+    Object.freeze(this) // travando o valor do objeto 
 }
 
+// {} <- this -> this
+
+// p1 = "ENDEREÇODEMEMORIA" -> 'Valor'
+// p1.ENDEREÇODEMEMORIA = {nome: 'Outro valor'}
 const p1 = new Pessoa('Luis', 'Otávio');
+p1.nome = 'Outro valor' // mudando o valor do objeto 
+const p2 = new Pessoa('Maria', 'Miranda')
 console.log(p1);
+console.log(p2);
+
